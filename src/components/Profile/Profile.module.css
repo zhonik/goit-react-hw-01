@@ -1,0 +1,61 @@
+.profile {
+  width: 480px;
+  border-radius: 10px;
+  border: 2px solid #1f1f1f;
+  margin-bottom: 32px;
+}
+
+.userBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.image {
+  width: 180px;
+  border-radius: 50%;
+  background-color: #363636;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: 0em;
+}
+
+.paragraph {
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  color: #969696;
+}
+
+.stats {
+  display: flex;
+  border-top: 2px solid #969696;
+  background-color: #c8c8c8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  letter-spacing: 0.02em;
+  font-size: 26px;
+  width: 158px;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 2px solid #969696;
+}
+
+.statsValue {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
